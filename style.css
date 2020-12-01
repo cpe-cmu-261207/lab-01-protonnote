@@ -1,8 +1,8 @@
 body {
-    background: #eee;
+    background-color: lightblue;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   }
-  
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -15,8 +15,9 @@ body {
     padding: 20px;
   }
   san{
+    width: 20%;
     color: black;
-  font-family: Impact, Charcoal, sans-serif
+    font-family: sans-serif
   }
 
   belgrano{
@@ -40,6 +41,8 @@ body {
     border: 1px solid black;
   }
 
-  body {
-    background-color: lightblue;
+  img{
+    margin: 10px;
+    border: black;
   }
+  
