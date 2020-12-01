@@ -1,0 +1,45 @@
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  center {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+  }
+  san{
+    color: black;
+  font-family: Impact, Charcoal, sans-serif
+  }
+
+  belgrano{
+    font-family: 'Belgrano';
+    font-size: 22px;
+  }
+
+  right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+
+  table {
+    border: 1px solid black;
+  }
+
+  body {
+    background-color: lightblue;
+  }
