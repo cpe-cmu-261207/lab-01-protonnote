@@ -1,6 +1,31 @@
-body {
+  /*body {
     background-color: #add8e6;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgba(66, 65, 65, 0.678);
+    
+  }*/
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
+
+  a {
+    color: rgba(66, 65, 65, 0.897);
   }
 
   ul {
@@ -16,7 +41,7 @@ body {
   }
   san{
     /*width: 20%;*/
-    color: rgba(66, 65, 65, 0.678);
+    color: rgba(66, 65, 65, 0.884);
     font-family: sans-serif
   }
 
@@ -101,4 +126,26 @@ body {
   ::-webkit-scrollbar-thumb:hover {
     background-color:  rgba(18, 29, 133, 0.678);
   }
+
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  input[type=submit] {
+    background-color: #5ca3bbfb;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
   
+  input[type=submit]:hover {
+    background-color:rgba(18, 29, 133, 0.473);
+  }
+
+  option{
+    background-color:rgba(18, 29, 133, 0.473) ;
+    border-radius: 15px;
+  }

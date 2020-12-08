@@ -1,0 +1,215 @@
+<!doctype html>
+<div class="container custom-scrollbar">
+  <html>
+    <head>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <center>
+            <div class="topnav">
+              <li><a  href="Homepage.html"><h4><belgano>Home</belgano></h4></a></li>
+              <li><a  href="Gallery.html"><h4><belgano>Gallery</belgano></h4></a></li>
+              <li><a  href="Contact.html"><h4><belgano>Contact</belgano></h4></a></li>
+              <li><a  href="CalculateGPA.html"><h4><belgano>CalculateGPA</belgano></h4></a></li>
+            </div>
+          </center>
+        </nav>
+      </header>
+      <center><h1><san style="padding: 30px;" >CalculateGPA</san></h1></center>
+      <table width="80%" align="center" style="padding: 15px;  border:2px solid; color:rgba(18, 29, 133, 0.753) ; ">
+        <tbody>
+          <tr>
+            <td width="80%">
+              <h1><san style=" padding: 30px;" >Naruson Kanchina</san></h1>
+              <h2><san style=" padding: 20px;">นายนฤสรณ์ กันจินะ</san></h2>
+              <h3><san style=" padding: 20px;">naruson_k@cmu.ac.th</san></h3>
+              <p><san style="  padding: 20px;">Computerengineering Chiangmai University</san></p>
+            </td>
+            <td align="center">
+                <img src="002.jpg" width="210" height="280">
+            </td>
+          </tr>
+        </tbody>
+      </table><br><br><br><br><br><br><br><br><br>
+      <form action="#" id="form">
+        <table width="80%" align="center" style="padding: 15px;  border:2px solid; color:rgba(18, 29, 133, 0.753) ; ">
+            <tbody>
+                <tr>
+                    <tr>
+                        <td>
+                            <h4>
+                                <label><san style="padding: 20px;">ชื่อวิชา:</san></label>
+                            </h4>
+                        </td>
+                        <td>
+                            <input size="50%" id="subject" type="text" name="subject" value width="50px" placeholder="ชือวิชา ไทย หรือ อังกฤษ" style="padding: 10px;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>
+                                <label><san style="padding: 20px;">รหัสวิชา:</san></label>
+                            </h4>
+                        </td>
+                        <td>
+                            <input size="50%" id="code-subject" type="text"  name="code-subject" value width="50px" placeholder="รหัสวิชา 6 หลัก" style="padding: 10px;" ></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>
+                                <label><san style="padding: 20px;">ภาคเรียน:</san></label>
+                            </h4>
+                        </td>
+                        <td>
+                            <form >
+                                <input id="term1" type="radio" name="term" value="term1">
+                                <label for="term1"><san>ภาคเรียนที่ 1</san></label>
+                                <input id="term2" type="radio" name="term" value="term2">
+                                <label for="term2"><san>ภาคเรียนที่ 2</san></label>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>
+                                <label><san style="padding: 20px;">เกรดที่ได้รับ:</san></label>
+                            </h4>
+                        </td>
+                        <td>
+                            <select name ="gpa" id = "gpa" itemref="gpa" >
+                                <optgroup label="GPA">
+                                    <option value="4" >A</option>
+                                    <option value="3.5">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.5">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.5">D+</option>
+                                    <option value="1">D</option>
+                                    <option value="0">F</option>
+                                </optgroup><br>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td style="padding: 30px;" >
+                            <submit><input width="80%" type="submit" name="submit" value="submit"  style="color: black;"></submit>
+                        </td>
+                    </tr>
+                </tr>
+            </tbody>
+        </table><br>
+    </form>
+    <br>
+    <table width="80%" align="center" style="padding: 15px;  border:2px solid; color:rgba(18, 29, 133, 0.753) ; ">
+        <tbody>
+            <tr>
+                <td>
+                    <center>
+                        <h2><san style="color: black; border: black;">ภาคเรียนที่ 1</san></h2>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="80%" align="center" style="background-color: transparent;">
+                        <tbody>
+                            <tr>
+                                <tr>
+                                    <td width="60%">
+                                        <h3><san style="color: black;">ชื่อวิชา</san></h3>
+                                    </td>
+                                    <td width="20%">
+                                        <h3><san style="color: black;">รหัสวิชา</san></h3>
+                                    </td>
+                                    <td width="10%">
+                                        <h3><san style="color: black;">เกรดที่ได้รับ</san></h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="60%" style="padding: 20px;">
+                                        <h5><san style="color: black; padding: 50px;">Logic Digital Circuits</san></h5>
+                                    </td>
+                                    <td width="20%">
+                                        <h5><san style="color: black;">261210</san></h5>
+                                    </td>
+                                    <td width="10%">
+                                        <h5><san style="color: black; padding:50px ;">A</san></h5>
+                                    </td>
+                                </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                    <td >
+                        <hr><br><h3><san style="color: black; padding: 40px;">เกรดเฉลี่ยภาคเรียนที่ 1 : <san style="padding: 345px; color: black;">3.89</san></san></h3><br><hr>
+                    </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <br><h2><san style="color: black; border: black;">ภาคเรียนที่ 2</san></h2>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="80%" align="center" style="background-color: transparent;">
+                        <tbody>
+                            <tr>
+                                <td width="60%">
+                                    <h3><san style="color: black;">ชื่อวิชา</san></h3>
+                                </td>
+                                <td width="20%">
+                                    <h3><san style="color: black;">รหัสวิชา</san></h3>
+                                </td>
+                                <td width="10%">
+                                    <h3><san style="color: black;">เกรดที่ได้รับ</san></h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="60%" style="padding: 20px;">
+                                    <h5><san style="color: black; padding: 50px;">CPE LAB</san></h5>
+                                </td>
+                                <td width="20%">
+                                    <h5><san style="color: black;">261207</san></h5>
+                                </td>
+                                <td width="10%">
+                                    <h5><san style="color: black; padding:50px ;">A</san></h5>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <hr><br><h3><san style="color: black; padding: 40px;">เกรดเฉลี่ยภาคเรียนที่ 2 : <san style="padding: 345px; color: black;">3.99</san></san></h3><br><hr>
+                </td>
+            </tr>
+            <tr>
+                <td >
+                    <br><h3><san style="color: black; padding: 40px;">เกรดเฉลี่ยรวมวิชาเมเจอร์ (261xxx/269xxx) : <san style="padding: 160px; color: black;">4.00</san></san></h3><br>
+                </td>
+            </tr>
+        </tbody>
+      </table>
+      <br>
+        <p align="center" style="padding: 20px;">
+            <san style="color: black;">
+               @2020 Naruson Kanchina  --
+                <a href = "mailto:naruson_k@cmu.ac.th?subject = Feedback&body = Message" style="color:blue;">
+                  naruson_k@cmu.ac.th
+                  </a>
+            </san>
+        </p>
+    </body>
+  </html>
+  <script src="script.js"></script>
+</div>
